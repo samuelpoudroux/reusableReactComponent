@@ -1,0 +1,32 @@
+ [
+    {
+        "key": "home",
+        "iconType": "home",
+        "title": "Accueil",
+        "route": "/home"
+      },
+    {
+      "key": "user",
+      "iconType": "user",
+      "title": "user",
+      "subMenu": {
+        "title": "administration",
+        "iconType": "mail",
+        "itemGroups": [{
+            "title": "gestion profil",
+            "items": [{
+              "key": "user",
+              "option": "profil",
+              "route": "/profil"
+            },
+            {
+              "key": "monCompteTest",
+              "option": "test",
+              "route": "/test"
+            }]
+        }]
+      }
+    }
+]
+  
+  
